@@ -1,0 +1,259 @@
+
+
+
+.promotion{
+	height: 40px;
+	width: auto;
+	margin: 10px;
+}
+
+#player{
+	width: 70%;
+	margin: auto;
+	-webkit-box-shadow: 9px 10px 72px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 9px 10px 72px 0px rgba(0,0,0,0.75);
+	box-shadow: 9px 10px 72px 0px rgba(0,0,0,0.75);
+	margin-top: 80px;
+}
+@media only screen and (max-width: 40.063em){
+	#player{
+		margin-top: 80px;
+	}
+}
+#player table{
+	border-width: 0px;
+	border-spacing: 0px;
+	    border-collapse: collapse;
+	    min-width: 100%;
+	    background-color: #fff;
+}
+table td{
+	padding: 0px;
+	background-color: #fff;
+}
+
+#player-top{
+	text-align: center;
+	background-color: #CCD2D3;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 10px;
+	line-height: 12px;
+}
+#player-bottom{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-align: center;
+	background-color: #CCD2D3;
+	padding: 10px;
+	line-height: 12px;
+}
+#control-container{
+	width: 103px;
+	margin: auto;
+}
+#toggle-playlist img{
+	width: 17px;
+	float: right;
+	cursor: pointer;
+}
+#current-song-information{
+	clear: both;
+	margin: auto;
+	margin-bottom: 8px;
+}
+#player-playlist{
+	/*border: 1px solid #B0B0B0;*/
+	display:block;
+	/*-webkit-box-shadow: 0px 50px 123px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 50px 123px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 50px 123px -4px rgba(0,0,0,0.75);*/
+	height: 100%;
+}
+.playlist-item{
+	/*width:594px*/;
+	min-width: 95%;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	background-color: white;
+	cursor: pointer;
+/*	border-bottom: 2px solid #B0B0B0;*/
+}
+.playlist-image-container{
+	float: left;
+}
+.playlist-image-container img{
+	height: 38px;
+	width: 38px;
+}
+.playlist-song-information-container{
+	float: left;
+	max-width: 240px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#up-next-header{
+	font-size: 17px;
+	color: 262624;
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+.playlist-song-title{
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 13px;
+	color: #262624;
+	line-height: 15px;
+	margin-top: 4px;
+	margin-left: 5px;
+}
+.playlist-album-information{
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 13px;
+	color: #7D7D7D;
+	line-height: 22px;
+	margin-left: 5px;
+}
+
+#now-playing-title{
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-weight: lighter;
+	font-size: 12px;
+	color: #494C4C;
+}
+.album-information{
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-weight: lighter;
+	font-size: 12px;
+	color: #7E8181;
+}
+
+#amplitude-visualization{
+	width: 314px;
+	height: 314px;
+	background-color: black;
+}
+.amplitude-album-art{
+	/*width: 340px;
+	height: 341px;*/
+	max-width: 100%;
+	height: auto;
+	/*border-bottom: 2px solid #B0B0B0;
+	border-top: 2px solid #B0B0B0;*/
+}
+.amplitude-prev{
+	float: left;
+	background-image: url('../img/player/black-prev.png');
+	width: 29px;
+	height: 16px;
+	cursor: pointer;
+	background-size: 100%;
+}
+#control-container .amplitude-play-pause{
+	float: left;
+	height: 28px;
+	width: 25px;
+	margin: -4px 10px 0px 10px;
+	cursor: pointer;
+}
+#control-container .amplitude-paused{
+    background-image: url('../img/player/black-play.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#control-container .amplitude-playing{
+    background-image: url('../img/player/black-pause.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.amplitude-next{
+	float: left;
+	background-image: url('../img/player/black-next.png');
+	width: 29px;
+	height: 16px;
+	cursor: pointer;
+	background-size: 100%;
+}
+.amplitude-active-song-container{
+	background-color: gainsboro;
+}
+#current-time{
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-weight: lighter;
+	font-size: 10px;
+	color: #414141;
+	display: block;
+	float: left;
+}
+#audio-duration{
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-weight: lighter;
+	font-size: 10px;
+	color: #414141;
+	display: block;
+	float: left;
+}
+input[type=range]#song-time-slider{
+	float: left;
+	height: 4px;
+	width: 90%;
+	background-color: #B3B5B4;
+	margin-top: 5px;
+	margin-left: 8px;
+	margin-right: 8px;
+	-webkit-appearance: none; 
+}
+input[type=range]#song-time-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]#song-time-slider:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]#song-time-slider::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent; /* Hides the slider so custom styles can be added */
+  border-color: transparent;
+  color: transparent;
+}
+/* Special styling for WebKit/Blink */
+input[type=range]#song-time-slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	border: 1px solid #000000;
+	height: 10px;
+	width: 2px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+/* All the same stuff for Firefox */
+input[type=range]#song-time-slider::-moz-range-thumb {
+	border: 1px solid #000000;
+	height: 10px;
+	width: 2px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]#song-time-slider::-ms-thumb {
+	border: 1px solid #000000;
+	height: 10px;
+	width: 2px;
+	background: #ffffff;
+	cursor: pointer;
+}
+@media only screen and (max-width: 40.063em){
+	div#current-song-information{
+		width: 270px;
+	}
+	div#player{
+		width: 100%;
+		max-width: 314px;
+	}
+	input[type="range"]#song-time-slider{
+		width: 214px;
+	}
+}
